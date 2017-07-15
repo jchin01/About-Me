@@ -1,0 +1,125 @@
+a.hover{
+  color:black;
+}
+.active ,.about,.buy,.other,.looks{
+font-family: 'Montserrat', sans-serif;
+
+}
+ul {
+
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: ;
+
+
+.nav{
+  background-color: white;
+  width:100%
+}
+
+
+
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    color: #111;
+
+}
+.spec{
+  width:371px;
+  height:391px;
+}
+.space{
+  width:100%;
+  height:25px;
+}
+.boxed{
+  width:1000px;
+  height:535px;
+  background-image: url("flower2.jpg");
+
+
+}
+.boxwords{
+  height:40px;
+  color: black;
+  font-size: 24px;
+  font-family: 'Abel', sans-serif;
+  font-style:bold;
+  text-align:center;
+  padding-bottom:0px;
+
+  background-color: white;
+  opacity: 0.6;
+}
+
+
+
+
+.camera{
+  width:300px;
+  height:200px;
+
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.camera:hover, .camera:focus, .camera:active {
+  -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+ -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+ transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+.camera1{
+  width:300px;
+  height:200px;
+
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.camera1:hover, .camera1:focus, .camera1:active {
+  -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+ -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+ transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+.space2{
+  font-family: 'Montserrat', sans-serif;
+  color:gray;
+}
+.space3{
+  width:100%;
+  height:50px;
+}
+.table1, .table2{
+  margin-right: 50px;
+}
+.space4{
+  height:120px;
+}
